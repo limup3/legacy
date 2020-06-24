@@ -30,7 +30,7 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		model.addAttribute("serverTime", DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale).format(new Date()) );
 		
-		return "home";
+		return "Home";
 	}
 	
 }
